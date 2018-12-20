@@ -7,15 +7,15 @@
 		
 	<style class="csscreations">/*basic reset*/
 * {margin: 0; padding: 0;}
-<a class="weatherwidget-io" href="https://forecast7.com/el/37d9823d73/athens/" data-label_1="Καιρός" data-label_2="ΑΘΗΝΑ" data-font="Verdana" data-icons="Climacons Animated" data-theme="weather_one" >Καιρός ΑΘΗΝΑ</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
+
 /*adding a black bg to the body to make things clearer*/
 body {background: black;}
 canvas {display: block;}</style></head>
 	<body>
-	
+<a class="weatherwidget-io" href="https://forecast7.com/el/37d9823d73/athens/" data-label_1="Καιρός" data-label_2="ΑΘΗΝΑ" data-font="Verdana" data-icons="Climacons Animated" data-theme="weather_one" >Καιρός ΑΘΗΝΑ</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>	
 	<canvas id="c"></canvas><script>var c = document.getElementById("c");
 var ctx = c.getContext("2d");
 
